@@ -1,0 +1,60 @@
+{
+  "rom_sha256": "5205295d9e14a49219fcdb0b65965a28eaf9103eb8faefab2f6bcc00291558fb",
+  "screenshots": [
+    {
+      "file": "docs/screenshots/01-title.png",
+      "rom_sha256": "5205295d9e14a49219fcdb0b65965a28eaf9103eb8faefab2f6bcc00291558fb",
+      "source": "native emulator framebuffer",
+      "display_aspect": "4:3",
+      "display_pixel_scale": [
+        1,
+        2
+      ],
+      "image_composited": false
+    },
+    {
+      "file": "docs/screenshots/02-character-select.png",
+      "rom_sha256": "5205295d9e14a49219fcdb0b65965a28eaf9103eb8faefab2f6bcc00291558fb",
+      "source": "native emulator framebuffer",
+      "display_aspect": "4:3",
+      "display_pixel_scale": [
+        1,
+        2
+      ],
+      "image_composited": false
+    },
+    {
+      "file": "docs/screenshots/03-world-map.png",
+      "rom_sha256": "5205295d9e14a49219fcdb0b65965a28eaf9103eb8faefab2f6bcc00291558fb",
+      "source": "native emulator framebuffer",
+      "display_aspect": "4:3",
+      "display_pixel_scale": [
+        1,
+        2
+      ],
+      "image_composited": false
+    },
+    {
+      "file": "docs/screenshots/04-ending-staff.png",
+      "rom_sha256": "5205295d9e14a49219fcdb0b65965a28eaf9103eb8faefab2f6bcc00291558fb",
+      "source": "native emulator framebuffer; targeted ending scene/progression",
+      "display_aspect": "4:3",
+      "display_pixel_scale": [
+        1,
+        2
+      ],
+      "image_composited": false
+    },
+    {
+      "file": "docs/screenshots/05-localization-credit.png",
+      "rom_sha256": "5205295d9e14a49219fcdb0b65965a28eaf9103eb8faefab2f6bcc00291558fb",
+      "source": "native emulator framebuffer; targeted ending scene/progression",
+      "display_aspect": "4:3",
+      "display_pixel_scale": [
+        1,
+        2
+      ],
+      "image_composited": false
+    }
+  ]
+}

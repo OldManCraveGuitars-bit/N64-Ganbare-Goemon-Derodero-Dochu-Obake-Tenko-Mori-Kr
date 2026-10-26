@@ -1,0 +1,4 @@
+173a833956c9ad86a3c1d86e060da4d82561f492df47b4011c4e79577600ee5d  N64-Ganbare-Goemon-Derodero-Dōchū-Obake-Tenko-Mori-Kr.exe
+4da7695fc56bbef45f589a11b75baa271c5617fec888d2370c0e2b222050e9dd  Goemon-Derodero-Korean-v1.0.bps
+1a43bce302dc93750225df2eca23e9dcd4b27efd4136015d4bf22abae4df10df  N64-Ganbare-Goemon-Derodero-Dochu-Obake-Tenko-Mori-Kr-v1.0-Windows.zip
+7e55145aa35f5c961c85b25eb59201b61a83b8b7f4c8fbcf61c77b57efe8a8c3  Screenshots-v1.0.zip

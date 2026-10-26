@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "version": "1.0",
+  "exe_sha256": "173a833956c9ad86a3c1d86e060da4d82561f492df47b4011c4e79577600ee5d",
+  "source_normalized_sha256": "d42e0fcdcc11678f17cd1977f9b774981923bfca22a989d73d7989b09d25bdd8",
+  "target_sha256": "5205295d9e14a49219fcdb0b65965a28eaf9103eb8faefab2f6bcc00291558fb",
+  "compiled_executable_actually_executed": true,
+  "python_or_external_patcher_required_by_user": false,
+  "checks": [
+    {
+      "case": "embedded BPS integrity",
+      "passed": true,
+      "patch_sha256": "4da7695fc56bbef45f589a11b75baa271c5617fec888d2370c0e2b222050e9dd"
+    },
+    {
+      "case": "GUI initialization and title resource",
+      "passed": true
+    },
+    {
+      "case": "compiled EXE z64",
+      "passed": true,
+      "original_preserved": true,
+      "source_sha256": "d42e0fcdcc11678f17cd1977f9b774981923bfca22a989d73d7989b09d25bdd8",
+      "output_sha256": "5205295d9e14a49219fcdb0b65965a28eaf9103eb8faefab2f6bcc00291558fb",
+      "output_bytes": 33554432
+    },
+    {
+      "case": "compiled EXE v64",
+      "passed": true,
+      "original_preserved": true,
+      "source_sha256": "16a3a7fa9a0de6f3bcb210b7b1b0f5f8aa0f3cf25d02c5ac138c7fc60ad627b8",
+      "output_sha256": "5205295d9e14a49219fcdb0b65965a28eaf9103eb8faefab2f6bcc00291558fb",
+      "output_bytes": 33554432
+    },
+    {
+      "case": "compiled EXE n64",
+      "passed": true,
+      "original_preserved": true,
+      "source_sha256": "a8577aa624080a733406a20f9d6346a0741fccaad93411adbebe14192fa05ac9",
+      "output_sha256": "5205295d9e14a49219fcdb0b65965a28eaf9103eb8faefab2f6bcc00291558fb",
+      "output_bytes": 33554432
+    },
+    {
+      "case": "original overwrite rejected",
+      "passed": true
+    },
+    {
+      "case": "existing output preserved",
+      "passed": true
+    },
+    {
+      "case": "wrong source hash rejected without output",
+      "passed": true
+    }
+  ]
+}

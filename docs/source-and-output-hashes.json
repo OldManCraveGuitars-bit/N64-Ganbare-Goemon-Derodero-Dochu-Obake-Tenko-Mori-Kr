@@ -1,0 +1,28 @@
+{
+  "supported_originals": [
+    {
+      "format": "z64",
+      "bytes": 16777216,
+      "header": "80371240",
+      "sha256": "d42e0fcdcc11678f17cd1977f9b774981923bfca22a989d73d7989b09d25bdd8",
+      "sha1": "2ab71b71665a688d40832e16d897548ece9f0dd4"
+    },
+    {
+      "format": "v64",
+      "bytes": 16777216,
+      "header": "37804012",
+      "sha256": "16a3a7fa9a0de6f3bcb210b7b1b0f5f8aa0f3cf25d02c5ac138c7fc60ad627b8",
+      "sha1": "d8ee4e745bae3625826ff267da5404b42f36c3c2"
+    },
+    {
+      "format": "n64",
+      "bytes": 16777216,
+      "header": "40123780",
+      "sha256": "a8577aa624080a733406a20f9d6346a0741fccaad93411adbebe14192fa05ac9",
+      "sha1": "6b09dbcec5bef5d76e1f409e731d714cd7a69790"
+    }
+  ],
+  "output_format": "z64",
+  "output_bytes": 33554432,
+  "output_sha256": "5205295d9e14a49219fcdb0b65965a28eaf9103eb8faefab2f6bcc00291558fb"
+}

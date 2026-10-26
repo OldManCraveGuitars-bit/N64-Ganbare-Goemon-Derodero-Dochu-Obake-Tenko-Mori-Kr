@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "release_name": "비공식 한글화 v1.0 정식 버전",
+  "source_sha1": "2ab71b71665a688d40832e16d897548ece9f0dd4",
+  "source_sha256": "d42e0fcdcc11678f17cd1977f9b774981923bfca22a989d73d7989b09d25bdd8",
+  "source_bytes": 16777216,
+  "target_sha256": "5205295d9e14a49219fcdb0b65965a28eaf9103eb8faefab2f6bcc00291558fb",
+  "target_bytes": 33554432,
+  "patch_file": "Goemon-Derodero-Korean-v1.0.bps",
+  "patch_sha256": "4da7695fc56bbef45f589a11b75baa271c5617fec888d2370c0e2b222050e9dd",
+  "patch_bytes": 937596,
+  "author": "기타 깎는 노인"
+}

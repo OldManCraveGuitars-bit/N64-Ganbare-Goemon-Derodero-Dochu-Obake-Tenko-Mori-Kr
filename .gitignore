@@ -1,0 +1,11 @@
+build/
+dist/
+.qa/
+__pycache__/
+*.pyc
+*.z64
+*.n64
+*.v64
+*.srm
+*.state*
+*.sav
