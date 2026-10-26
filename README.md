@@ -18,6 +18,8 @@
 - **Screenshots-v1.0.zip**: 아래 인게임 스크린샷 모음입니다.
 - **SHA256SUMS.txt**: 배포 파일의 SHA256 목록입니다.
 
+ZIP 안의 EXE 파일명은 `N64-Ganbare-Goemon-Derodero-Dōchū-Obake-Tenko-Mori-Kr.exe`입니다. GitHub의 단독 EXE 다운로드명에는 `Dochu` 표기가 적용됩니다.
+
 게임 원본과 패치 완료 롬은 포함하지 않습니다. 별도로 준비한 일본판 원본이 필요합니다.
 
 ## 적용 방법

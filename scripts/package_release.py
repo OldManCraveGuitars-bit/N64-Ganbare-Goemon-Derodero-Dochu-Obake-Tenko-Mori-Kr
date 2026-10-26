@@ -53,7 +53,9 @@ def main():
     windows=dist/(BASE+'-v1.0-Windows.zip');zip_files(windows,members)
     screens=dist/'Screenshots-v1.0.zip';zip_files(screens,[(p.name,p.read_bytes())for p in sorted((root/'docs/screenshots').glob('*.png'))])
     assets=[exe,dist/patch.name,windows,screens]
-    sums=''.join(sha(p.read_bytes())+'  '+p.name+'\n'for p in assets)
+    # GitHub normalizes macrons in standalone asset download filenames.
+    download_name=lambda p:BASE+'.exe' if p.suffix=='.exe' else p.name
+    sums=''.join(sha(p.read_bytes())+'  '+download_name(p)+'\n'for p in assets)
     (root/'SHA256SUMS.txt').write_text(sums,encoding='utf8');(dist/'SHA256SUMS.txt').write_text(sums,encoding='utf8')
     raw=REPO.replace('https://github.com/','https://raw.githubusercontent.com/')+'/v1.0/'
     notes=('## 비공식 한글화 v1.0 정식 버전\n\n'
@@ -86,7 +88,7 @@ def main():
     (root/'docs/RELEASE-v1.0.md').write_text(notes,encoding='utf8')
     report=dict(passed=True,version='1.0',release_name='비공식 한글화 v1.0 정식 버전',
         repo=REPO,game_ROM_files_included=False,exe_filename_preserved_in_zip=exe.name,
-        assets=[dict(name=p.name,bytes=p.stat().st_size,sha256=sha(p.read_bytes()))for p in assets])
+        assets=[dict(name=p.name,download_name=download_name(p),bytes=p.stat().st_size,sha256=sha(p.read_bytes()))for p in assets])
     (root/'.qa/package-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     print(json.dumps(report,ensure_ascii=False,indent=2))
 
